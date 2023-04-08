@@ -1,0 +1,7 @@
+C:\Users\Kollydap\source\repos\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csproj.AssemblyReference.cache
+C:\Users\Kollydap\source\repos\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csproj.CoreCompileInputs.cache
+C:\Users\Kollydap\source\repos\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe.config
+C:\Users\Kollydap\source\repos\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe
+C:\Users\Kollydap\source\repos\DesignPattern\DesignPattern\bin\Debug\DesignPattern.pdb
+C:\Users\Kollydap\source\repos\DesignPattern\DesignPattern\obj\Debug\DesignPattern.exe
+C:\Users\Kollydap\source\repos\DesignPattern\DesignPattern\obj\Debug\DesignPattern.pdb
