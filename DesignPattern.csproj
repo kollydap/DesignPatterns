@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Composition over inheritance\Composition.cs" />
+    <Compile Include="Composition over inheritance\Inheritance.cs" />
+    <Compile Include="Decorator Pattern\Breverages.cs" />
     <Compile Include="Observer Pattern\Newspaper.cs" />
     <Compile Include="Observer Pattern\Observer.cs" />
     <Compile Include="Observer Pattern\Weather.cs" />
@@ -53,5 +56,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

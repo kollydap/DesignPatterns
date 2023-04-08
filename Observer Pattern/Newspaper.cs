@@ -22,14 +22,14 @@ namespace DesignPattern.Observer_Pattern
         public int RefNo { get; set; }
         public string  Title { get; set; }
         public string Body { get; set; }
-        public Newspaper(string title, string body, int refNo)
-        {
-            RefNo = refNo;
-            Title = title;
-            Body = body;
-            NotifySuscribers();
-        }
-        List<ISuscribers> suscribersList = new List<ISuscribers>();
+        //public Newspaper(string title, string body, int refNo)
+        //{
+        //    RefNo = refNo;
+        //    Title = title;
+        //    Body = body;
+        //    NotifySuscribers();
+        //}
+        public List<ISuscribers> suscribersList = new List<ISuscribers>();
         public void AddSuscribers(ISuscribers suscriber)
         {
             suscribersList.Add(suscriber); 
@@ -64,6 +64,12 @@ namespace DesignPattern.Observer_Pattern
 
    public class Suscribers : ISuscribers
     {
+        private Newspaper newspaper;
+         Suscribers(Newspaper newspaper)
+        {
+            this.newspaper = newspaper;
+            newspaper.AddSuscribers(this);
+        }
         public int RefNo { get; set; }
         public string Title { get; set; }
         public string Body { get; set; }
@@ -102,8 +108,9 @@ namespace DesignPattern.Observer_Pattern
         }
     }
 
-    class DupeSuscriber : ISuscribers
+    class DupeSuscriber :ISuscribers
     {
+      
         public int RefNo { get; set; }
         public string Title { get; set; }
         public string Body { get; set; }
