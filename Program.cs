@@ -71,6 +71,18 @@ namespace DesignPattern
             Student student2 = new Student(new BinarySearchStudent());
             student2.performSearch();
 
+            //Rice jollofRice = new JollofRice();
+            //jollofRice = new ContinentalToppings(jollofRice);
+            //Console.WriteLine(jollofRice.cost());
+            //Console.WriteLine(jollofRice.getDescription());
+            //jollofRice = new ContinentalToppings(jollofRice);
+            //Console.WriteLine(jollofRice.cost());
+            //Console.WriteLine(jollofRice.getDescription());
+
+            Hotel hotel1 = new ExecutiveRoom();
+            Console.WriteLine(hotel1.cost());
+            hotel1 = new Premium(hotel1);
+            Console.WriteLine(hotel1.cost());
             Console.ReadLine();
         }
     }

@@ -46,6 +46,8 @@
     <Compile Include="Composition over inheritance\Composition.cs" />
     <Compile Include="Composition over inheritance\Inheritance.cs" />
     <Compile Include="Decorator Pattern\Breverages.cs" />
+    <Compile Include="Decorator Pattern\Hotel.cs" />
+    <Compile Include="Decorator Pattern\Rice.cs" />
     <Compile Include="Decorator Pattern\Pizza.cs" />
     <Compile Include="Observer Pattern\Newspaper.cs" />
     <Compile Include="Observer Pattern\Observer.cs" />
