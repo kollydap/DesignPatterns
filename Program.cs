@@ -57,6 +57,19 @@ namespace DesignPattern
             beverage3 = new Mocha(beverage3);
             //beverage3 = new Whip(beverage3);
             //Console.WriteLine(beverage3.getDescription() +  "$" +beverage3.cost());
+            IPizza pizza = new PlainPizza();
+
+            // Add cheese to the pizza
+            pizza = new CheeseDecorator(pizza);
+
+
+            Console.WriteLine("Description: " + pizza.GetDescription());
+            Console.WriteLine("Price: " + pizza.GetPrice().ToString("C2"));
+
+            Student student1 = new Student(new LinearSearchStudent());
+            student1.performSearch();
+            Student student2 = new Student(new BinarySearchStudent());
+            student2.performSearch();
 
             Console.ReadLine();
         }
