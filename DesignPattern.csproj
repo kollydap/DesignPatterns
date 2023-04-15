@@ -49,6 +49,7 @@
     <Compile Include="Decorator Pattern\Hotel.cs" />
     <Compile Include="Decorator Pattern\Rice.cs" />
     <Compile Include="Decorator Pattern\Pizza.cs" />
+    <Compile Include="Factory Pattern\DominoPizza.cs" />
     <Compile Include="Observer Pattern\Newspaper.cs" />
     <Compile Include="Observer Pattern\Observer.cs" />
     <Compile Include="Observer Pattern\Weather.cs" />
