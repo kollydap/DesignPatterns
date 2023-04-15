@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.Factory_Pattern
 {
-    public class Pizza
+    public abstract class Pizza
     {
-
+        public abstract void Prepare();
+        public abstract void Bake();
+        public abstract void Cut();
+        public abstract void box();
     }
     public class DominoPizza
     {
